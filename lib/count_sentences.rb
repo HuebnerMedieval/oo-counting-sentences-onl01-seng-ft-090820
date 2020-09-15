@@ -20,5 +20,8 @@ class String
     sentences_ar.each do |char|
       if char == "." || char == "?" || char == "!"
         sentence_count += 1
+      end
+    end
+    sentence_count
   end
 end
