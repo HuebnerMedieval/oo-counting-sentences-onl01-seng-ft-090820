@@ -15,6 +15,9 @@ class String
   end
 
   def count_sentences
-    
+    sentences_ar = self.split
+    sentences_ar.map! do |element|
+      if element = ""
+        
   end
 end
